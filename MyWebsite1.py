@@ -2,7 +2,7 @@
 from flask import Flask, render_template
 
 # Create a Flask app instance
-app = Flask(__name__)
+app = Flask(austin)
 
 # Define the home route
 @app.route('/')
